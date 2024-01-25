@@ -70,7 +70,7 @@ contract Example {
         return counter.number;
     }
 
-    // This function returns the description value initiated while deploying the contract
+    // This function returns the description value set for the contract
 
     function get_description() external view returns (string memory) {
         return counter.description;
